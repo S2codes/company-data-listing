@@ -1,0 +1,48 @@
+.companyDetails{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+p{
+    margin: 0.3rem;
+}
+
+label{
+    font-weight: bold;
+    margin: 0;
+}
+
+.companyDetails div{
+    max-width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+div.fundingDetails{
+    background-color: #f2f2f2;
+    width: 100%;
+    padding: 10px 3px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 10px 0px;
+}
+div.fundingDetails h4{
+    margin: 0;
+    padding: 0;
+}
+
+div.fundings{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0.3rem;
+}

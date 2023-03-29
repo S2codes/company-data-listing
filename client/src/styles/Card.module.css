@@ -1,0 +1,64 @@
+.card {
+    /* border: 2px solid red; */
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0 10px 0;
+    border-radius: 13px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.cardHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.companyLogo {
+    width: 130px;
+    height: 100%;
+    object-fit: contain;
+    /* background-color: #f4f4f4; */
+}
+
+.companyDescription {
+    padding-left: 7px;
+    width: 100%;
+    font-size: 0.9rem;
+}
+
+.companyTitle {
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.viewBtn {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #f14358;
+    border: 2px solid #f14358;
+    border-radius: 23px;
+    padding: 7px 0;
+    text-align: center;
+    width: 100%;
+    transition: all 0.3s ease-in;
+}
+.viewBtn:hover {
+    background-color: #f14358;
+    color: #fff;
+}
+
+.iconGroup{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 6px;
+    border-top: 2px solid #dbdada;
+}
+
